@@ -1,0 +1,6 @@
+Instructions:
+
+a) If you are absent for many days, you will be removed from the folder.
+    Team is watching continuously and tracking the attendance.
+
+b) The folder got deleted automatically after six months.
