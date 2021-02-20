@@ -1,0 +1,185 @@
+
+
+
+
+Power Apps sessions
+
+There are two sessions planned for Power Apps
+a) Today
+b) Next week 9 am IST
+
+Agenda for Today
+
+1. What is Power Platform? 
+2.What is Power Apps?
+2.Need of Power Apps?
+3. What kind of Services supported in Power Apps.
+4. Embedding Power BI Report in Power Apps Tile
+5. Sending an Email using Power Apps and Gmail from Microsoft Flow
+6. Creating a form to enter data to the report. Accessing through mobile app.
+
+===========================================================
+Power Platform
+============================================================
+It is the combination of
+
+a) Power BI [Report Generation]
+b) Power Apps [ Perform actions and manage data]
+c) Power Automate [ Scheduling the reports or data refresh]
+
+What is Power Automate?
+
+Which will automate the operations.
+They run in their stipulated time.
+
+What is Microsoft Flow?
+
+Performing set of operations as a flow.
+
+We can run the flow by manually triggering or scheduled way.
+
+How do we access Microsoft Flow?
+
+flow.microsoft.com
+
+What is required to work with Microsoft flow?
+
+Microsoft account is required
+
+Note:
+
+user name: vinaytech_6@vinaytechhouse.com
+password: vinaytech@2014
+
+
+Real time examples:
+
+a) Send en email, load data, after successful load send again an email, load data to cube database, send an email
+
+b) You want to receive a mobile message as soon as you got an Important Indication email from my manager
+
+
+
+
+Examples:
+
+a) Send an email instantly [manual trigger]
+
+
+
+
+
+
+
+
+
+Power Apps:
+
+A low code approach to create mobile apps and web based solutions.
+
+Real-Time Scenario:
+
+Delivery manager need a form in the app where he wants to see three buttons. 
+When he clicks first button, respective report should sent to customer team.
+When he clicks second button, respecive report should sent to sales managers.
+When he clicks third button, respecive report should sent to subordinates.
+
+Solution:
+
+We need .net / java / phython / html / php etc. languages code [ huge code approach].
+Without this code we can create simple forms with actions using Power Apps [Low-Code approach].
+
+
+
+Design Reason:
+
+Now everyone can quickly build and share low-code apps with Microsoft Power Apps.
+
+Ex: 
+	Your customer wants to enter data and report should show the same data?
+	Solution:
+	Create a mobile app [with simple form with set of text boxes and buttons], after entering details, when user clicks
+	Submit, the data will be loaded to the database and report displayed with that data.
+	
+	Your customer need a form to enter data and below the form actual report.
+	Solution:
+	Create an app with two sections  
+	a) Form section
+	b) Report Display section [ Embed your Power BI Report]
+	    ***Power Apps Power BI Embedding,
+	    
+Excercise today:
+=======================================================================================
+Example 1:
+
+Sending an email to gmail using "Power Apps to Gmail "  in Power Automate [Microsoft Flow].
+=======================================================================================
+
+Example 2:
+
+Click Power Apps button to send an email using "Gmail".  [Microsoft Flow]
+
+=======================================================================================
+
+Example 3:
+
+Create an APP which shows Power BI report
+
+Embedding Power BI Report in PowerApps Canvas [in a tile]
+
+https://app.powerbi.com/reportEmbed?reportId=eaa4ec15-4a98-4c8b-abe2-14880629a382&autoAuth=true&ctid=e2aa1f92-8ae9-48c0-8aa8-894fb201ce24&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWluZGlhLXdlc3QtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D
+
+Practice:
+
+1. Install Power APPs mobile app from play store
+2. Connect using your credentials 
+3. You will be able to see all the apps shared with you
+4. You can now work on it
+
+
+========================================================================================
+Example 4:
+
+Entering Details in a form and verifying the changes at source
+
+Practice:
+a) Add one file at OneDrive [ if you use it, no Gateway connection required, if On-Premises sources used {SQL Server, C / D Drives} then 
+    Gateway connection is required.
+
+b) Create an app form from one drive file
+
+c) Do the changes fo formation (colors, fonts, titles, etc...) and styles, and Save it.
+
+	a) Browser View
+		See the options and change
+	b) Detail view
+		See the options and change
+	c) Data View
+		See the options and change
+
+d) Go to preview, add rows, so that those rows will be visible at actual source at OneDrive.
+
+e) Connect to Power APPs in the mobile, add rows / modify rows, those changes you will find in OneDrive file.
+
+=======================================================================================
+
+
+Example 5:
+Create a Power BI Report from a data source, providing user an interface to enter / modify data, so that it will reflect in the source and
+report level.
+
+
+Power APP[ change data]---> OneDrive [Excel]---> Power BI Report in the Power BI Service refresh
+
+
+b) Create a Power BI Report from the OneDrive Excel. This report will be refreshed when Power APPs level data changing.
+a) Follow the above approach to take changes
+
+
+Note:  You can Install a Gatewateway [Data Gateway], connect to On-Premise source and bring chanages to Power BI report from Mobile APP changes.
+
+
+
+=======================================================================================
+
+
